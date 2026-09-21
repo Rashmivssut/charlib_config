@@ -2,7 +2,7 @@
 * ------------------------------------------------------------------------------
 * D Flip-Flop Subcircuit Definition
 * ------------------------------------------------------------------------------
-.subckt dff_negedge D CLK VDD VSS Q
+.subckt dff D CLK VDD VSS Q
 
 * --- Clock Inverter ---
 xm_iclk_p clk_bar clk VDD VDD sky130_fd_pr__pfet_01v8 l=0.15 w=1.26 as=0.378 ad=0.378 ps=3.12 pd=3.12
@@ -48,6 +48,6 @@ xm_tg4_n  X6  clk     X5  VSS sky130_fd_pr__nfet_01v8 l=0.15 w=0.42 as=0.126 ad=
 xm_i4_p   Q       X7  VDD VDD sky130_fd_pr__pfet_01v8 l=0.15 w=1.26 as=0.378 ad=0.378 ps=3.12 pd=3.12
 xm_i4_n   Q       X7  VSS VSS sky130_fd_pr__nfet_01v8 l=0.15 w=0.42 as=0.126 ad=0.126 ps=1.44 pd=1.44
 
-.ends dff_negedge
+.ends dff
 
 
