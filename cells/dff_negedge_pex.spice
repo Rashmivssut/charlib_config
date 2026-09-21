@@ -1,6 +1,6 @@
 * NGSPICE file created from dff_negedge_layout.ext - technology: sky130A
 
-.subckt dff_negedge_layout CLK VSS VDD D Q
+.subckt dff CLK VSS VDD D Q
 X0 a_224_n362# clk vdd vdd sky130_fd_pr__pfet_01v8 ad=0.378 pd=3.12 as=0.378 ps=3.12 w=1.26 l=0.15
 X1 q a_2732_n362# vdd vdd sky130_fd_pr__pfet_01v8 ad=0.378 pd=3.12 as=0.378 ps=3.12 w=1.26 l=0.15
 X2 a_2096_n362# clk a_1524_n362# vdd sky130_fd_pr__pfet_01v8 ad=0.378 pd=3.12 as=0.378 ps=3.12 w=1.26 l=0.15
