@@ -35,7 +35,7 @@
 # ===================================================================
 
 settings:
-  lib_name: dff_sky130_tt_1v80_025C_schematic
+  lib_name: dff_sky130_tt_1v80_025C_pex
   results_dir: output
   temperature: 25
 
